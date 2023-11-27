@@ -62,3 +62,14 @@ color: white;}
 footer p {color: white;}
 
 span {font-size: 10px;}
+
+.circle {
+   width: 300px; /* Diameter of the circle */
+   height: 300px; /* Diameter of the circle */
+   border-radius: 50%; /* Makes the div a circle */
+   background-color: red; /* Any color you like */
+   margin: 0 auto;
+ }
+
+ .circle p {color: white;}
+.circle img {color: white;} 
