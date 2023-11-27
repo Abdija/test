@@ -73,6 +73,7 @@ span {font-size: 10px;}
  .rectangle {
    width: 200px; /* Adjust width for rectangles */
    margin: 0 auto;
+   background-color: pink;
  }
 
  
