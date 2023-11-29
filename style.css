@@ -1,16 +1,18 @@
 body {
-   font-family: 'Comic Sans MS', cursive, sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    background-color: #ffdab9; /* PeachPuff background */
    margin: 20px;
 }
 
 h1 {
+   font-family: 'Comic Sans MS', cursive, sans-serif;
    color: #4169e1; /* RoyalBlue header */
    text-align: center;
    font-size: 24px;
 }
 
 h2 {
+   font-family: 'Comic Sans MS', cursive, sans-serif;
    color: #8b4513; /* SaddleBrown subheader */
    font-size: 18px;
    text-align: center;
@@ -56,12 +58,23 @@ margin: 0 auto;}
    text-align: left;
 } 
 
-footer {background-color: #4169e1;
-color: white;}
+footer {
+   background-color: #4169e1;
+   color: white;
+   padding: 12px;
+   margin-top: 20px;
+   align-items: center;
+}
 
-footer p {color: white;}
+footer p {color: white;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 12px;}
+        
+    footer a {color: white;}
 
-span {font-size: 10px;}
+span {font-size: 10px;
+      text-align: center;
+      margin: 0 auto;}
 
 .square, .rectangle {
    width: 100px; /* Adjust width as needed */
@@ -78,8 +91,8 @@ span {font-size: 10px;}
 
  
  .circle {
-   width: 300px; /* Diameter of the circle */
-   height: 300px; /* Diameter of the circle */
+   width: 150px; /* Diameter of the circle */
+   height: 150px; /* Diameter of the circle */
    padding-right: 30px;
    padding-top:20px;
    border-radius: 50%; /* Makes the div a circle */
@@ -102,3 +115,28 @@ span {font-size: 10px;}
    border-bottom: 100px solid green; /* Adjust size and color as needed */
    margin: 0 auto;
  } 
+
+
+ /* Styling our existing content into sections */
+
+.title-section, .intro, .profile{
+   background-color: #fbf5eb;
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+
+.intro {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile {background-color: cornsilk;}
+
+
+.profile h4 {
+   text-align: center;
+margin: 0 auto;}
+
+
+#meetme {
+   background-color: antiquewhite;
+   color: #4169e1;
+}
