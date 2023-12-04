@@ -131,12 +131,31 @@ span {font-size: 10px;
 .profile {background-color: cornsilk;}
 
 
-.profile h4 {
+   .profile h4 {
    text-align: center;
-margin: 0 auto;}
+   margin: 0 auto;}
 
 
-#meetme {
+   #meetme {
    background-color: antiquewhite;
-   color: #4169e1;
-}
+   color: #4169e1;}
+
+   .flexbox-list {
+      display: flex;
+      flex-wrap: wrap;
+
+
+   }
+
+   .flexbox-list > div {
+      flex: 1 1 30%;
+      margin: 15px;
+      border: 1px solid #ccc;
+      padding: 15px;
+   }
+
+   .flexbox-list p {
+      font-family: 'AndikaNewBasicRegular';
+      text-align: left;
+      color: gray;
+   }
