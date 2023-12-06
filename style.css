@@ -41,17 +41,19 @@ background-color: black;
 }
 
 a {text-decoration: none;
-color:#8b4513}
+color:#8b4513
+}
 
 img {display: block;
-margin: 0 auto;}
+margin: 0 auto;
+}
 
 
 .center {
    text-align: center;
 }
 
-.center ol,
+.center ol, 
 .center ul,
 .center dl {
    display: inline-block;
@@ -66,15 +68,19 @@ footer {
    align-items: center;
 }
 
-footer p {color: white;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-         font-size: 12px;}
+footer p {
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 12px;
+}
         
-    footer a {color: white;}
+footer a {
+   color: white;}
 
 span {font-size: 10px;
       text-align: center;
-      margin: 0 auto;}
+      margin: 0 auto;
+   }
 
 .square, .rectangle {
    width: 100px; /* Adjust width as needed */
@@ -104,7 +110,7 @@ span {font-size: 10px;
    border: 20px solid blue;
  }
 
- .circle p {color: white;}
+.circle p {color: white;}
 .circle img {color: white;}
 
  .triangle {
@@ -133,18 +139,18 @@ span {font-size: 10px;
 
    .profile h4 {
    text-align: center;
-   margin: 0 auto;}
+   margin: 0 auto;
+   }
 
 
    #meetme {
    background-color: antiquewhite;
-   color: #4169e1;}
+   color: #4169e1;
+   }
 
    .flexbox-list {
-      display: flex;
-      flex-wrap: wrap;
-
-
+   display: inline-flex;
+   flex-wrap: wrap;
    }
 
    .flexbox-list > div {
@@ -159,3 +165,26 @@ span {font-size: 10px;
       text-align: left;
       color: gray;
    }
+
+    .grid-container {
+      display: grid;
+      grid-template-rows: auto auto auto 1fr;
+      gap: 10px;
+    }
+
+    .title-section {
+      grid-column: 1 / span 4;
+      grid-row: 1;
+    }
+
+    .intro {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+
+    }
+
+    .profile {
+      grid-column: 3 / span 2;
+      grid-row: 2;
+    }
+
