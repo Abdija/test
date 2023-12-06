@@ -17,19 +17,20 @@ h2 {
    font-size: 18px;
    text-align: center;
 }
+
 h4 {
    font-size: 10px;
 }
+
 p {
    color: #ff0000; /* Red text */
    line-height: 1.5;
    text-align: center;
 }
 
-.info
-{
-color: white;
-background-color: black;
+.info {
+   color: white;
+   background-color: black;
 }
 
 .piano {
@@ -40,12 +41,14 @@ background-color: black;
    text-decoration: underline;
 }
 
-a {text-decoration: none;
-color:#8b4513
+a {
+   text-decoration: none;
+   color: #8b4513
 }
 
-img {display: block;
-margin: 0 auto;
+img {
+   display: block;
+   margin: 0 auto;
 }
 
 
@@ -53,12 +56,12 @@ margin: 0 auto;
    text-align: center;
 }
 
-.center ol, 
+.center ol,
 .center ul,
 .center dl {
    display: inline-block;
    text-align: left;
-} 
+}
 
 footer {
    background-color: #4169e1;
@@ -70,121 +73,148 @@ footer {
 
 footer p {
    color: white;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 12px;
 }
-        
+
 footer a {
-   color: white;}
+   color: white;
+}
 
-span {font-size: 10px;
-      text-align: center;
-      margin: 0 auto;
-   }
+span {
+   font-size: 10px;
+   text-align: center;
+   margin: 0 auto;
+}
 
-.square, .rectangle {
+.square,
+.rectangle {
    width: 100px; /* Adjust width as needed */
    height: 100px; /* Adjust height as needed */
    background-color: blue; /* Any color you like */
    margin: 0 auto;
- }
+}
 
- .rectangle {
+.rectangle {
    width: 200px; /* Adjust width for rectangles */
    margin: 0 auto;
    background-color: pink;
- }
+}
 
- 
- .circle {
+
+.circle {
    width: 150px; /* Diameter of the circle */
    height: 150px; /* Diameter of the circle */
    padding-right: 30px;
-   padding-top:20px;
+   padding-top: 20px;
    border-radius: 50%; /* Makes the div a circle */
    background-color: red; /* Any color you like */
    margin: 0 auto;
    border-width: 10px;
-   border-color: blue!important;
+   border-color: blue !important;
    margin-top: 70px;
    border: 20px solid blue;
- }
+}
 
-.circle p {color: white;}
-.circle img {color: white;}
+.circle p {
+   color: white;
+}
 
- .triangle {
+.circle img {
+   color: white;
+}
+
+.triangle {
    width: 0;
    height: 0;
    border-left: 50px solid transparent; /* Adjust size as needed */
    border-right: 50px solid transparent; /* Adjust size as needed */
    border-bottom: 100px solid green; /* Adjust size and color as needed */
    margin: 0 auto;
- } 
+}
 
 
- /* Styling our existing content into sections */
+/* Styling our existing content into sections */
 
-.title-section, .intro, .profile{
+.title-section,
+.intro,
+.profile {
    background-color: #fbf5eb;
    padding: 15px;
    margin-top: 10px;
    border-radius: 15px;
 }
 
-.intro {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.intro {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.profile {background-color: cornsilk;}
+
+.profile {
+   background-color: cornsilk;
+   background-image: url('background.jpg');
+   box-shadow: 0px 0px 10px 5px #00000030;
+}
 
 
-   .profile h4 {
+.profile h4 {
    text-align: center;
    margin: 0 auto;
-   }
+}
 
 
-   #meetme {
+#meetme {
    background-color: antiquewhite;
    color: #4169e1;
-   }
+}
 
-   .flexbox-list {
+.flexbox-list {
    display: inline-flex;
    flex-wrap: wrap;
-   }
+}
 
-   .flexbox-list > div {
-      flex: 1 1 30%;
-      margin: 15px;
-      border: 1px solid #ccc;
-      padding: 15px;
-   }
+.flexbox-list>div {
+   flex: 1 1 30%;
+   margin: 15px;
+   border: 1px solid #ccc;
+   padding: 15px;
+}
 
-   .flexbox-list p {
-      font-family: 'AndikaNewBasicRegular';
-      text-align: left;
-      color: gray;
-   }
+.flexbox-list p {
+   font-family: 'AndikaNewBasicRegular';
+   text-align: left;
+   color: gray;
+}
 
-    .grid-container {
-      display: grid;
-      grid-template-rows: auto auto auto 1fr;
-      gap: 10px;
-    }
+.grid-container {
+   display: grid;
+   grid-template-rows: auto auto auto 1fr;
+   gap: 10px;
+}
 
-    .title-section {
-      grid-column: 1 / span 4;
-      grid-row: 1;
-    }
+      .title-section {
+         grid-column: 1 / span 4;
+         grid-row: 1;
+      }
 
-    .intro {
-      grid-column: 1 / span 2;
-      grid-row: 2;
+      .intro {
+         grid-column: 1 / span 2;
+         grid-row: 2;
 
-    }
+      }
 
-    .profile {
-      grid-column: 3 / span 2;
-      grid-row: 2;
-    }
+      .profile {
+         grid-column: 3 / span 2;
+         grid-row: 2;
+      }
 
+      .flexbox-list {
+         grid-row-start: 3;
+         grid-row-end: 4;
+         grid-column-start: 1;
+         grid-column-end: 5;  
+      }
+
+      footer {
+         width: 100%;
+         grid-column: 1 / -1;
+         text-align: center;
+      }
