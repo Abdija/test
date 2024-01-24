@@ -540,7 +540,7 @@ header:hover {
 
    /* End of using animations */
 
-.animated-button {
+.animated-buttons {
    display: inline-block;
    padding: 10px 20px;
    border: 2px solid lightblue;
@@ -550,11 +550,11 @@ header:hover {
 
 
 
-   .animated-button:hover {
+   .animated-buttons:hover {
       color: #fff;
    }
 
-   .animated-button::before {
+   .animated-buttons::before {
       content: '';
       position: absolute;
       background: #3498db;
@@ -566,7 +566,7 @@ header:hover {
       transition: all 0.3 ease;
    }
 
-   .animated-button:hover ::before {
+   .animated-buttons:hover ::before {
       width: 100%;
       left: 0;
    }
